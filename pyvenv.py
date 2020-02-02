@@ -5,7 +5,7 @@ def hcfnaive(a, b):
         return a
     else:
         return hcfnaive(b, a % b)
-a=int(input("Saisir un entier non nul a: "))
-b=int(input("Saisir un entier non nul b: "))
+a=int(input("Enter a non-null integer a: "))
+b=int(input("Enter a non-null integer b: "))
 
-print("le pgdc de a et b est",hcfnaive(a, b))
+print("the greatest common divisor of a and b is",hcfnaive(a, b))
